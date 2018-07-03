@@ -4,7 +4,7 @@ Web Programming with Python and JavaScript
 Xinning (Esther) Fang
 07/03/2018
 
-My website is based on my trip to Japan not long ago. I had five .html pages: homepage.html, which is clearly the homepage of the website; schedule.html, which is a page where I made a table that shows the schedule of my Japan trip; Onsen.html, which basically introduces onsen in Japan and pics of some onsens we went; food.html, which introduces food I had in Japan with pictures as well, and lastly, scenic_spots.html, which mainly has photos I took in Japan.
+My website is based on my trip to Japan not long ago. I had five .html pages: homepage.html, which is clearly the homepage of the website; schedule.html, which is a page where I made a table that shows the schedule of my Japan trip; Onsen.html, which basically introduces onsen in Japan and pics of some onsens we went; food.html, which introduces food I had in Japan with pictures as well, and lastly, scenic_spots.html, which mainly has photos I took in Japan. Please start with homepage.html.
 
 In each page except homepage.html, I used Bootstrp to make a navigation bar at the top of the page, so that each page an be linked to each other. In the homepage.html, I used Bootstrap's grid model to create a basic navigation grid of the four pages.
 
