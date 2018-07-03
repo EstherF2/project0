@@ -1,0 +1,30 @@
+//Stylesheet for navigation bar at the top of the four pages except the homepage.
+body {
+  margin: 0;
+  font-family: "Autour One";
+}
+
+.navigation {
+  overflow: hidden;
+  background-color: #edbbc6;
+
+}
+
+.navigation a {
+  float: left;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+    padding: 15px 78.5px;
+}
+
+//When mouse is moved on any section, the backgroud color will be grey with black text.
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navigation a.active {
+  background-color: #ff89a3;
+  color: white;
+}

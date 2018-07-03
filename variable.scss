@@ -1,19 +1,111 @@
-$title_color: orange;
-
-h1
+$color2: #f9e5ee;
+//Set common properties of titles of each page
+%title
 {
-    color: $title_color;
     text-align: center;
-    font-family: Impact, Charcoal, sans-serif;
-
+    font-family: 'Barrio';
+    font-size: 40px;
+    margin:20px;
+    font-weight: bold;
 }
 
-/*ul {
-    font-size: 14px;
-    color: $color;
+// Inhertance of %title with different colors of texts
+.foodt{
+  @extend %title;
+  color: #f9c190;
 }
 
-ol {
-    font-size: 18px;
-    color: $color;
-}*/
+.homet{
+  @extend %title;
+  color: #1f9dd3;
+}
+
+.schedulet{
+  @extend %title;
+  color: #0f5bbf;
+}
+
+.onsent{
+  @extend %title;
+  color: #02c4ff;
+}
+
+.scenic_spotst{
+  @extend %title;
+  color: #ffaa01;
+}
+
+ul,ol {
+  padding-left: 3%;
+  font-family: "Annie Use Your Telescope";
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+//Adding the emoji of the map of Japan
+a::after
+{
+    content: "\1F5FE";
+}
+
+//Transparent boxes so that texts are readable
+.transbox{
+  margin: 30px;
+  background-color: $color2;
+  border: 1px solid $color2;
+  opacity: 0.7;
+}
+
+.transbox p{
+  margin: 3%;
+  font-weight: bold;
+  color: black;
+}
+
+.background{
+  background-repeat: repeat-y;
+  background-position: top;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+//For images and their captions
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    font-size: 21px;
+    font-family: "Annie Use Your Telescope";
+    font-weight: bolder;
+    color: #0050ba;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+//For the table in schedule.html
+#schedule {
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: bolder;
+    font-family: "Annie Use Your Telescope";
+    font-size: 21px;
+}
+
+#schedule td, #schedule th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#schedule th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #0f5bbf;
+    color: white;
+    text-align: left;
+}

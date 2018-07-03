@@ -1,0 +1,13 @@
+.color {
+  font-size: 22px;
+}
+.color ol {
+  color: #4b1584;
+  padding-left: 6%;
+}
+.color ul {
+  color: #8448c4;
+  padding-left: 9%;
+}
+
+/*# sourceMappingURL=nesting.css.map */

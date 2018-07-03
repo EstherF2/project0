@@ -1,0 +1,100 @@
+@charset "UTF-8";
+.scenic_spotst, .onsent, .schedulet, .homet, .foodt {
+  text-align: center;
+  font-family: "Barrio";
+  font-size: 40px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.foodt {
+  color: #f9c190;
+}
+
+.homet {
+  color: #1f9dd3;
+}
+
+.schedulet {
+  color: #0f5bbf;
+}
+
+.onsent {
+  color: #02c4ff;
+}
+
+.scenic_spotst {
+  color: #ffaa01;
+}
+
+ul, ol {
+  padding-left: 3%;
+  font-family: "Annie Use Your Telescope";
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+a::after {
+  content: "🗾";
+}
+
+.transbox {
+  margin: 30px;
+  background-color: #f9e5ee;
+  border: 1px solid #f9e5ee;
+  opacity: 0.7;
+}
+
+.transbox p {
+  margin: 3%;
+  font-weight: bold;
+  color: black;
+}
+
+.background {
+  background-repeat: repeat-y;
+  background-position: top;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  font-size: 21px;
+  font-family: "Annie Use Your Telescope";
+  font-weight: bolder;
+  color: #0050ba;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#schedule {
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: bolder;
+  font-family: "Annie Use Your Telescope";
+  font-size: 21px;
+}
+
+#schedule td, #schedule th {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+#schedule th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #0f5bbf;
+  color: white;
+  text-align: left;
+}
+
+/*# sourceMappingURL=variable.css.map */

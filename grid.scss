@@ -1,0 +1,33 @@
+// Stylesheet for layout of images.
+* {
+    box-sizing: border-box;
+}
+
+
+.r {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+// If the screen is larger than 800px, three images will be in one row.
+.c {
+    flex: 33.3%;
+    width: 33.3%;
+    padding:3px;
+}
+
+// If the screen is smaller than 800px but larger than 600px, two images will be in one row.
+@media screen and (max-width: 800px) {
+    .c {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+// If the screen is smaller than 600px, there will be only one image in one row.
+@media screen and (max-width: 600px) {
+    .c {
+        flex: 100%;
+        max-width: 100%;
+    }
+}

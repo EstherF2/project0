@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.r {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.c {
+  flex: 33.3%;
+  width: 33.3%;
+  padding: 3px;
+}
+
+@media screen and (max-width: 800px) {
+  .c {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .c {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=grid.css.map */
